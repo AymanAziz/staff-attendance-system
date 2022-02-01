@@ -1,0 +1,181 @@
+.totalemployee  {
+background-color:#1f2833;
+position: absolute;
+top: 70px; left: 160px;
+color: #e2dddd;
+width:80%;
+padding:10px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+}
+.checkStaff  {
+background-color:#1f2833;
+position: absolute;
+top: 70px; left: 160px;
+color: #e2dddd;
+width:20%;
+padding:10px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+}
+.addstaff {
+background-color:#1f2833;
+float:right;
+color: #e2dddd;
+width:60%;
+padding:10px;
+margin-top:80px;
+margin-right: 200px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+}
+.viewonestaff  {
+background-color:#1f2833;
+float:right;
+color: #e2dddd;
+width:55%;
+padding:10px;
+margin-top:90px;
+margin-right: 200px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+}   
+.view  {
+background-color:#1f2833;
+position: absolute;
+top: 70px; left: 500px;
+color: #e2dddd;
+width:40%;
+padding:10px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+}   
+.balanceApproveList {
+background-color:#1f2833;
+position: absolute;
+top: -10px; left: 1100px;
+color: #e2dddd;
+width:15%;
+padding:10px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+}
+.viewSuccessAL  {
+background-color:#1f2833;
+position: absolute;
+top: 300px; left: 150px;
+color: #e2dddd;
+width:85%;
+padding:10px;
+margin-top:32px;
+margin-right: 20px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+}       
+#addAll input[type=submit] {
+background-color: #0b0c10;
+border: none;
+color: white;
+padding: 16px 32px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;}   
+
+#addAll input[type=text] {
+width: 90%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 3px solid #66fcf1;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+}
+#addAll {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+color: #000000;
+font-size: 110%;
+} 
+#addAll td {
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: left;
+background-color: #66fcf1;
+}
+select {
+width: 100%; 
+padding: 14px 100px;
+border: none;
+border-radius: 5px;
+background-color: #e0f3ed;
+text-align: center;
+}   
+#delete  input[type=submit] {
+background-color: #f7121d;
+border: none;
+color: rgb(0, 0, 0);
+padding: 16px 32px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;}   
+
+#comfirm input[type=submit] {
+background-color: #66fcf1;
+border: none;
+color: rgb(0, 0, 0);
+padding: 16px 32px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;}
+
+#viewAllinfo {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+font-size: large;
+}
+#viewAllinfo td {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #66fcf1;
+color:  #1f2833;
+font-size: large;
+}
+
+.approve  {
+float: left;
+color: #ffffff;
+background-color: #4285f4;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+cursor: pointer;
+border: none;        
+}
+
+.reject  {
+float: left;
+color: #ffffff;
+background-color: #cb2b6f;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+cursor: pointer;
+border: none;        
+}
+
+.viewStaff {
+background-color:#1f2833;
+position: absolute;
+top: 220px; left: 160px;
+color: #e2dddd;
+width:80%;
+padding:10px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+}

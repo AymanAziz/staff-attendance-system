@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    background-color:#fffbfb;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-top: 45px;
+    padding: 0;
+    width: 10%;
+    background-color: #0b0c10;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(209, 208, 208);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+  
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; 
+    width: 100%; 
+    background-color: #45a29e;
+  }
+  
+  .topnav button {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+  
+  }
+  
+  input[type=submit]{
+    float: left;
+    color: #e3e1e1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+  
+  }
+  input[value='Check in']{
+    background-color: #45a29e;
+    color: #000000;
+    font-size: large;
+  }
+  input[value='Check out']{
+    background-color: #45a29e;
+    color: #000000;
+    font-size: large;
+  }
+  .topnav a:hover {
+    background-color: #e3e1e1;
+    color: #000000;
+  }
+  
+  .topnav button.active {
+    background-color: #f14f2b;
+    color: #000000;
+  }
+  
+  .topnav-centered img {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  
+  .ump{
+      width: 80px;
+     
+  }
+  /*dashboard */
+  /* year total days */
+  .yeartotalday {
+    background-color:#cb2b6f;
+    position: static;
+     float:right;
+     color: #ffffff;
+     width:15%;
+     padding:20px;
+     margin-top:70px;
+     margin-right: 580px;
+     border: 2px solid rgb(255, 255, 255);
+      border-radius: 5px;
+   }  
+   .yeartotalhour {
+    background-color:#4285f4;
+    position: static;
+    float:right;
+     color: #ffffff;
+     width:15%;
+     padding:20px;
+     margin-top:-153px;
+     margin-right: 690px;
+     border: 2px solid rgb(255, 255, 255);
+      border-radius: 5px;
+   }  
+
+   .averagehour {
+    background-color:#14366b;
+    position: static;
+     float:right;
+     color: #ffffff;
+     width:18%;
+     padding:20px;
+     margin-top:-153px;
+     margin-right: 388px;
+     border: 2px solid rgb(255, 255, 255);
+      border-radius: 5px;
+   }  
+
+   .balanceApproveList {
+    background-color:#14366b;
+    position: static;
+    float:right;
+    color: #ffffff;
+    width:24%;
+    padding:10px;
+    margin-top:80px;
+    margin-right:24px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+  }   
+  .rightcolumn {
+    background-color:#1f2833;
+    position: static;
+    color: #e2dddd;
+    float:right;
+    width:20%;
+    padding:15px;
+    margin-top:40px;
+    margin-right: 25px;
+    text-align:center;
+    border: 2px solid rgb(255, 255, 255);
+     border-radius: 5px;
+  }
+ /* table utk statusonline.php */
+  #status {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #status td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #66fcf1;
+    color:  #1f2833;
+  }
+
+ /* div about action log history.php */
+  .column {
+   background-color:#1f2833;
+   position: absolute;
+   top: 222px; left: 160px;
+    color: #e2dddd;
+    width:60%;
+    padding:10px;
+    margin-top:40px;
+    margin-right: 3px;
+    border: 2px solid rgb(255, 255, 255);
+     border-radius: 5px;
+  }
+  /* table utk statusonline.php */
+  #actionlog {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: large;
+  }
+  #actionlog td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #66fcf1;
+    color:  #1f2833;
+    font-size: large;
+  }
+
+  
